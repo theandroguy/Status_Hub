@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    tools:context=".statuscategory">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="3">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="154dp"
+                android:layout_height="170dp"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:elevation="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/love"
+                        android:layout_width="135dp"
+                        android:layout_height="135dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/lob"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Love"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="154dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="right"
+                android:elevation="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/attitude"
+                        android:layout_width="135dp"
+                        android:layout_height="135dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/attitude" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Attitude"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="154dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:elevation="5dp"
+                android:layout_gravity="left"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/sed"
+                        android:layout_width="135dp"
+                        android:layout_height="135dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/sad"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Sad/Breakup"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="154dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:elevation="5dp"
+                android:layout_gravity="right"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/ff"
+                        android:layout_width="135dp"
+                        android:layout_height="135dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/frnds"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="friends Forever"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="154dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:elevation="5dp"
+                android:layout_gravity="left"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/gm"
+                        android:layout_width="135dp"
+                        android:layout_height="135dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/morning"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Good Morning"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="154dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="right"
+                android:elevation="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/gn"
+                        android:layout_width="135dp"
+                        android:layout_height="135dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/night"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Good Night"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="154dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+
+                android:elevation="5dp"
+                android:layout_gravity="left"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/single"
+                        android:layout_width="135dp"
+                        android:layout_height="135dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/single"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Single"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="154dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="right"
+                android:elevation="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/fest"
+                        android:layout_width="135dp"
+                        android:layout_height="135dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/fest"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Festivals"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

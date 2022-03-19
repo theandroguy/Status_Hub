@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Status DP Hindi Shayari And Memes</string>
+    <string name="tab_text_1">STATUS</string>
+    <string name="tab_text_2">MEMES/JOKES</string>
+    <string name="tab_text_3">SHAYARI</string>
+    <string name="tab_text_4">DP/STATUS</string>
+    <string name="tab_text_5">VIDEO STATUS/MEMES</string>
+    <string name="tab_text_6">STATUS CATEGORY</string>
+    <string name="demo">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="status_dp_and_shayari">Status DP and Shayari</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rate_the_app">Rate the App</string>
+    <string name="share">Share</string>
+    <string name="policy">Policy</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="download">DOWNLOAD</string>
+</resources>

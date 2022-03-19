@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "756467241544",
+    "project_id": "status-dp-app",
+    "storage_bucket": "status-dp-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756467241544:android:fac9da199a9497c1e43e7d",
+        "android_client_info": {
+          "package_name": "com.tushar.statusdpandhindishayariforwhatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756467241544-fb561pmdq26cqf0egu3qsqpv0rnssho0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB5Yrfw-2y72WzVirETUxiqzR71iyVWEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756467241544-fb561pmdq26cqf0egu3qsqpv0rnssho0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
