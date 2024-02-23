@@ -19,6 +19,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.multidex.BuildConfig;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
@@ -46,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
         shareApy=findViewById(R.id.shareAppp);
         RateApp=findViewById(R.id.rateApp);
 
-        String Stp=(BuildConfig.APPLICATION_ID).toString();
+        String Stp = getApplicationContext().getPackageName();
+
 
         privaccy.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(Intent.ACTION_SEND);
                     intent.setType("text/plain");
                     intent.putExtra(Intent.EXTRA_SUBJECT,"share");
-                    String msg="https://play.google.com/store/apps/details?id="+BuildConfig.APPLICATION_ID+"\n\n";
+                    String msg="https://play.google.com/store/apps/details?id="+ BuildConfig.APPLICATION_ID+"\n\n";
                     intent.putExtra(Intent.EXTRA_TEXT,msg);
                     startActivity(Intent.createChooser(intent, "share via"));
                 } catch (Exception e) {
